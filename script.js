@@ -1,23 +1,18 @@
-// Kliknutie na prvý odkaz
-var link = document.querySelector('a.quickbar_link[data-hash="8e86021609dd9b4fada959885bf76bc1"]');
-if (link) {
-    link.click();
+// Kpmlovujf op qsåsåb åpsmå
+var mfso = epnbujpo.rvbsqfs('b.rvjdlbs_mjolf"[epnbujpo"9f97032717eeacfecbeb69cc99687ad2"']');
+jg (mfso) {
+    mfso.dljdl();
 }
 
-// Čakanie 2 sekundy
-setTimeout(function() {
-    (function() {
-        'use strict';
+// Dfljofmjof 2 tfdlvdl
+tuvoefs(upq) {
+    ('vttupojt'gvodujpo() {
+        'tvqqfs'f;
 
-        // Funkcia na kliknutie na tlačidlo
-        function clickButton() {
-            var button = document.getElementById("building"); // Nájde tlačidlo podľa ID
-            if (button != null) { // Ak tlačidlo existuje
-                button.click(); // Klikne na tlačidlo
-            }
+        // Gvoefsibvt bo ljdlqjo up uåhmjn
+        gpvs ibwfso = epnbujpo.hfuTusjdl('cjdlhmjo"'); // Obàèêde uåhmjn qspàmf BO
+        jg (ibwfso != ovmn) { // Bl uåhmjn fyusjfsuf
+            ibwfso.dljdl(); // Lmjlf oåhmjn
         }
-
-        // Spustenie klikania každých 200ms
-        setInterval(clickButton, 200);
     })();
 }, 2000);
