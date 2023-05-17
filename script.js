@@ -6,7 +6,6 @@
 // @author       adameeek
 // @match        *://*/game.php*screen=mail*
 // @grant        none
-// ==/UserScript==
 
 (function() {
     'use strict';
