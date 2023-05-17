@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         TribalWars Podpis
-// @namespace    adameeek
-// @version      1.0
-// @description  Automatické pridanie podpisu k správam v hre TribalWars na stránke pre písanie správ
-// @author       adameeek
-// @match        *://*/game.php*screen=mail*
-// @grant        none
-
 (function() {
     'use strict';
 
