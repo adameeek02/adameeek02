@@ -1,27 +1,23 @@
-(function() {
-    'use strict';
+// Kliknutie na prvý odkaz
+var link = document.querySelector('a.quickbar_link[data-hash="8e86021609dd9b4fada959885bf76bc1"]');
+if (link) {
+    link.click();
+}
 
-    // Funkcia, ktorá pridá podpis k správe a odosle ju
-    function pridatPodpisAOdoslat() {
-        var textArea = document.getElementById("message");
-        var text = textArea.value;
-        text += "\n\n[i]zracca[/i]";
-        textArea.value = text;
-        var buttons = document.querySelectorAll('input[type="submit"]');
-        for (var i = 0; i < buttons.length; i++) {
-            if (buttons[i].value === "Odpovedať" || buttons[i].value === "Odoslať") {
-                buttons[i].click();
+// Čakanie 2 sekundy
+setTimeout(function() {
+    (function() {
+        'use strict';
+
+        // Funkcia na kliknutie na tlačidlo
+        function clickButton() {
+            var button = document.getElementById("building"); // Nájde tlačidlo podľa ID
+            if (button != null) { // Ak tlačidlo existuje
+                button.click(); // Klikne na tlačidlo
             }
         }
-    }
 
-    // Nastavenie tlačidla na pridanie podpisu a odoslanie správy
-    var button = document.createElement("button");
-    button.innerHTML = "Pridať podpis a odoslať";
-    button.style.marginTop = "10px";
-    button.addEventListener("click", pridatPodpisAOdoslat);
-
-    // Pridanie tlačidla pod textové pole
-    var textAreaContainer = document.querySelector(".easy-submit").parentNode;
-    textAreaContainer.appendChild(button);
-})();
+        // Spustenie klikania každých 200ms
+        setInterval(clickButton, 200);
+    })();
+}, 2000);
