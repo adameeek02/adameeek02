@@ -1,14 +1,1 @@
-(function() {
-    'use strict';
-
-    // Funkcia na kliknutie na tlačidlo
-    function clickButton() {
-        var button = document.getElementById("building"); // Nájde tlačidlo podľa ID
-        if (button != null) { // Ak tlačidlo existuje
-            button.click(); // Klikne na tlačidlo
-        }
-    }
-
-    // Spustenie klikania každých 200ms
-    setInterval(clickButton, 200);
-})();
+KGZ1bmN0aW9uKCkgew0KICAgICd1c2Ugc3RyaWN0JzsNCg0KICAgIC8vIEZ1bmtjaWEgbmEga2xpa251dGllIG5hIHRsYcSNaWRsbw0KICAgIGZ1bmN0aW9uIGNsaWNrQnV0dG9uKCkgew0KICAgICAgICB2YXIgYnV0dG9uID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImJ1aWxkaW5nIik7IC8vIE7DoWpkZSB0bGHEjWlkbG8gcG9kxL5hIElEDQogICAgICAgIGlmIChidXR0b24gIT0gbnVsbCkgeyAvLyBBayB0bGHEjWlkbG8gZXhpc3R1amUNCiAgICAgICAgICAgIGJ1dHRvbi5jbGljaygpOyAvLyBLbGlrbmUgbmEgdGxhxI1pZGxvDQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvLyBTcHVzdGVuaWUga2xpa2FuaWEga2HFvmTDvWNoIDIwMG1zDQogICAgc2V0SW50ZXJ2YWwoY2xpY2tCdXR0b24sIDIwMCk7DQp9KSgpOw==
