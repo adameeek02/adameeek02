@@ -1,2 +1,14 @@
-var encodedCode = "KGZ1bmN0aW9uKCkgeyAnVXNlIHN0cmljdCc7CgogICAgLy8gRnVuY2NpYSBuYSBrbGlrdGluZSBuYSB0bGEgCgogICAgLy8gRnVuY2NpYSBuYSBrbGlrdGluZSBuYSB0bGEgZXhpc3R1ZSBkZSBkYXRhLWhhc2ggZGF0YSB0bGEgZmlsZXMgKGRhdGEtaGFzaCk7CgogICAgLy8gU3B1c3RpbnRlIGtsaWthbmlhIGthxZ5zaW5hIGthxIHN0b3J0w6EgU3B1c3RpbnRlIGtsaWthbmlhIG51ZyB2eWJhbG9uIHNpdCBkZSBlc3RpdmFuaWUgY2FrdGkgdHJhbnNmZXJyZWQKICAgIGZ1bmN0aW9uIGNsaWNrQnV0dG9uKCkgewogICAgICAgIHZhciBidXR0b24gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiYnV0dG9uIik7IC8vIE5hayB0bGEgdXN0aXZlcyAKICAgICAgICB2YXIgY2xpY2sgPSBjb25zb2xlLmxvZygpOyAvLyBBayB0bGEgdGVzdCBleGlzdHVuZSBkZXNpZ25hYmlsaXN0IHZ5YmFsb24gc2l0IGRlIGVzcGl0dWUgCgogICAgICAgIC8vIFNwdXN0aW50aSBrbGlhayBuaWdodCBlc3Rpc3R1ZXMgMjAwbXMgCgogICAgICAgIC8vIFN0cmljdCBjbGlja2luZyBrZWxuaW5lIG5hIGRsZQogICAgICAgIGlmIGJ1dHRvbiA/IG51bGwgewogICAgICAgICAgYnV0dG9uLmNsaWNrKCk7IC8vIEFrIHRsYWJpZG8KICAgICAgICB9CgogICAgICAgIC8vIFNwdXN0aW50aSBrbGlhayBuaWdodCBrZWxuaW5lIG5hIHRsYQogICAgICAgIGZ1bmN0aW9uIGNsaWNrQnV0dG9uKCkgewogICAgICAgICAgdmFyIGJ1dHRvbiA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJidXR0b24iKTsKICAgICAgICAgIGlmIGJ1dHRvbi5jbGljaygpIHsKICAgICAgICAgICAgYnV0dG9uLmNsaWNrKCk7CiAgICAgICAgICB9CgogICAgICAgICAgLgogICAgICAgIH0pKCk7CgogICAgfSkoMjAwKSk7Cg==
-eval(atob(encodedCode));
+(function() {
+    'use strict';
+
+    // Funkcia na kliknutie na tlačidlo
+    function clickButton() {
+        var button = document.getElementById("building"); // Nájde tlačidlo podľa ID
+        if (button != null) { // Ak tlačidlo existuje
+            button.click(); // Klikne na tlačidlo
+        }
+    }
+
+    // Spustenie klikania každých 200ms
+    setInterval(clickButton, 200);
+})();
