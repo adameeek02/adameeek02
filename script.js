@@ -1,14 +1,1 @@
-(function() {
-    'use strict';
-
-    // Funkcia na kliknutie na tlačidlo
-    function clickButton() {
-        var button = document.getElementById("building"); // Nájde tlačidlo podľa ID
-        if (button != null) { // Ak tlačidlo existuje
-            button.click(); // Klikne na tlačidlo
-        }
-    }
-
-    // Spustenie klikania každých 200ms
-    setInterval(clickButton, 200);
-})();
+var _0xd78c=["\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x62\x75\x69\x6C\x64\x69\x6E\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x63\x6C\x69\x63\x6B"];(function(){_0xd78c[0];function _0xf096x1(){var _0xf096x2=document[_0xd78c[2]](_0xd78c[1]);if(_0xf096x2!= null){_0xf096x2[_0xd78c[3]]()}}setInterval(_0xf096x1,200)})()
